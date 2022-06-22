@@ -83,14 +83,14 @@ function addNewTask(tsk = " ", cmp = 0) {
 
       clear_all();
       updateLS()
-      showNotification("success", "All tasks were cleared")
+      
 
     })
     clear_c.addEventListener("click", () => {
 
       clear_comp();
       updateLS()
-      showNotification("success", "All completed tasks were cleared")
+      
 
     })
 
@@ -158,7 +158,7 @@ function clear_all() {
     cl.remove();
 
   });
-
+showNotification("success", "All tasks were cleared")
 }
 
 
@@ -174,6 +174,7 @@ function clear_comp() {
   clbtn.forEach((cl) => {
     if(cl.classList.contains('comp'))
     cl.remove();
+    showNotification("success", "All completed tasks were cleared")
 
   });
 
