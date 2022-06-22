@@ -1,0 +1,130 @@
+body {
+  background-color: #A6D785;
+  background-image: url("bg1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height:700px;
+  /* background-color: #71BC68; */
+  color: #444;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  min-height: 50vh;
+}
+
+.head {
+  margin-top: 9%;
+  text-align: center;
+  color: white;
+  font-family: 'Capriola', sans-serif;
+  opacity: 0.8;
+  font-size: 3.5rem;
+}
+
+
+.f {
+
+  max-width: 100%;
+  width: 400px;
+}
+
+#add {
+  width: auto;
+  background: transparent;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+#add:hover {
+  opacity: 0.8;
+}
+
+.inp {
+  border: none;
+  padding: 1rem 2rem;
+  width: 100%;
+}
+
+.inp::placeholder {
+  padding-left: 10px;
+}
+
+.inp::placeholder::after {
+  visibility: visible;
+}
+
+.todos {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.todos li {
+  background-color: white;
+  padding: 1rem 2rem;
+  width: 77%;
+  float: left;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.btn {
+  float: right;
+  height: 50.3px;
+  width: 27.66px;
+  border: none;
+  background-color: white;
+  padding: 10px;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.tasks {
+  cursor: pointer;
+}
+
+.tasks:hover {
+  opacity: 0.8;
+}
+
+.completed {
+  text-decoration: line-through;
+  font-weight: bold;
+}
+
+.clear, .clear_comp {
+  background-color: white;
+  border-radius: 3px;
+  border: none;
+  color: black;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  position: fixed;
+  bottom: 6rem;
+  right: 15rem;
+}
+
+.clear {
+  bottom: 6rem;
+  right: 15rem;
+}
+
+.clear:hover, .clear_comp:hover {
+  opacity: 0.8;
+}
+
+.clear_comp {
+  bottom: 6rem;
+  right: 6rem;
+  float: right;
+}
