@@ -128,7 +128,7 @@ body {
   right: 6rem;
   float: right;
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 300px) {
 
 body{
   height: 800px;
