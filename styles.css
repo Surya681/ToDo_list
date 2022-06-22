@@ -109,7 +109,7 @@ body {
   color: black;
   cursor: pointer;
   padding: 0.5rem 1rem;
-  position: fixed;
+  position: absolute;
   bottom: 6rem;
   right: 15rem;
 }
