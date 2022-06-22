@@ -128,10 +128,10 @@ body {
   right: 6rem;
   float: right;
 }
-@media only screen and (min-width: 300px) {
+@media only screen and (max-width: 300px) {
 
 body{
-  height: 800px;
+  height: 1000px;
 }
 }
 
